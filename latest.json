@@ -1,0 +1,21 @@
+{
+  "version": "0.3.0",
+  "notes": "Quest VNC Server 0.3.0",
+  "platforms": {
+    "windows": {
+      "url": "https://raw.githubusercontent.com/vktrflo/Quest-VNC-Releases/main/v0.3.0/QuestVncServer-0.3.0-windows.exe",
+      "sha256": "5daff95154ec9b208a89d16e0dca1e019672aa20e50726b4dd72f216be3031d6",
+      "size": 35748997
+    },
+    "linux-x86_64": {
+      "url": "https://raw.githubusercontent.com/vktrflo/Quest-VNC-Releases/main/v0.3.0/questvnc-server-0.3.0-linux-x86_64",
+      "sha256": "55030bf6ca6363e2160b075be8381a8d11b5d2214d15e0f6a0d8237974171b15",
+      "size": 817840
+    },
+    "macos": {
+      "url": "https://raw.githubusercontent.com/vktrflo/Quest-VNC-Releases/main/v0.3.0/QuestVncServer-0.3.0-macos.tar.gz",
+      "sha256": "da9d4132627c806173a21e1379a41c1d27ac095b045f409210c75cb262ddad14",
+      "size": 54658
+    }
+  }
+}
