@@ -1,14 +1,17 @@
-# Quest VNC Server releases
+# Quest VNC PC setup
 
-Downloads for Quest VNC Server, the VNC server with sound for the Quest VNC headset app.
+One-step setups that get a PC ready for the Quest VNC headset app: a VNC server plus the sound sender.
+Each one asks which port to use for the VNC server and for sound, and for a password, then prints what
+to enter in the app.
 
-## Current version: 0.3.0
+## Current version: 0.1.0
 
-- **Windows:** [QuestVncServer-0.3.0-windows.zip](v0.3.0/QuestVncServer-0.3.0-windows.zip). Unzip, double-click `QuestVncServer.exe`, and answer yes to install.
-- **Linux (X11):** [QuestVncServer-0.3.0-linux.zip](v0.3.0/QuestVncServer-0.3.0-linux.zip). Unzip and run `./install.sh`.
-- **macOS:** [QuestVncServer-0.3.0-macos.zip](v0.3.0/QuestVncServer-0.3.0-macos.zip). Unzip, then right-click `install.command` and choose Open.
+- **Windows:** [QuestVncSetup-0.1.0-windows.zip](setup-v0.1.0/QuestVncSetup-0.1.0-windows.zip). Installs TightVNC Server and the sound sender. Unzip, then double-click `Install Quest VNC.cmd`.
+- **Linux:** [QuestVncSetup-0.1.0-linux.zip](setup-v0.1.0/QuestVncSetup-0.1.0-linux.zip). Sets up a TigerVNC virtual desktop and the sound sender. Unzip and run `./install.sh`.
+- **macOS:** [QuestVncSetup-0.1.0-macos.zip](setup-v0.1.0/QuestVncSetup-0.1.0-macos.zip). Turns on Screen Sharing (with guidance) and installs the sound sender. Unzip, then right-click `Install Quest VNC.command` and choose Open.
 
-On each file's page, use the download button.
+On each file's page, use the download button. Each zip has a README with details and uninstall steps.
 
-Installed servers update themselves from this repository: they read `latest.json` and download the
-bare `.exe`, Linux binary or macOS `.tar.gz` it points to, after checking its size and checksum.
+## Older: Quest VNC Server (shelved)
+
+`v0.3.0/` and `latest.json` hold the last release of our own VNC server, which the setups above replace.
